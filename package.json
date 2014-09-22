@@ -1,0 +1,26 @@
+{
+  "name": "cf-mutable-testing",
+  "version": "0.0.1",
+  "description": "cf-mutable-testing ==================",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrockBeaudry/cf-mutable-testing"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrockBeaudry/cf-mutable-testing/issues"
+  },
+  "homepage": "https://github.com/BrockBeaudry/cf-mutable-testing",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  }
+}
