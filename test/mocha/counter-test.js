@@ -2,7 +2,7 @@
 
 var expect = require('chai').expect;
 var assert = require('chai').assert;
-var Counter = require('../../lib/Counter.js');
+var Counter = require('../../lib/counter.js');
 
 describe('counter', function() {
     var counter;
@@ -42,8 +42,4 @@ describe('counter', function() {
             expect(counter.getValue()).to.equal(1);
         });
     });
-
-    // it('Count should be zero at instantiation', function() {
-    //     expect(counter.getValue()).to.eql(0);
-    // });
-}); 
+});
